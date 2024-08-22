@@ -1,0 +1,77 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container-profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #595959;
+    border-radius: 50px;
+    width: 60%;
+    max-width: 1000px;
+    height: 400px;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.profile-avatar {
+    position: absolute;
+    top: -120px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile-content {
+    margin-top: 90px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-input {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 12px;
+    width: 80%;
+    padding: 0 10px; 
+}
+
+.label {
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 2px;
+    flex: 1; 
+}
+
+.value {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    flex: 2; 
+    text-align: center;
+    margin-bottom: 2px;
+    padding-bottom: 5px; 
+    font-size: 10px;
+}
+
