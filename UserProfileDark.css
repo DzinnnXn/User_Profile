@@ -5,11 +5,11 @@ body, html {
     box-sizing: border-box;
 }
 
-body {
+.Profile-Body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--BackgroundBlackColor, #181717);
+    background:  #181717;
     min-height: 100vh;
     font-family: Arial, sans-serif;
 }
